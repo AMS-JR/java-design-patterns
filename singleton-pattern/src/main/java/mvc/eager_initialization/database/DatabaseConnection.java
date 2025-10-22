@@ -1,4 +1,4 @@
-package mvc.eager_initialization;
+package mvc.eager_initialization.database;
 
 public class DatabaseConnection {
     private static DatabaseConnection INSTANCE = new DatabaseConnection();

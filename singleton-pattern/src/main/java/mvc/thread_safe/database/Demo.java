@@ -1,4 +1,4 @@
-package mvc.thread_safe;
+package mvc.thread_safe.database;
 
 public class Demo {
     public static void main(String[] args) {

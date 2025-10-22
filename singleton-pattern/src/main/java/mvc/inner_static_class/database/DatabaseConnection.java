@@ -1,4 +1,4 @@
-package mvc.inner_static_class;
+package mvc.inner_static_class.database;
 
 public class DatabaseConnection {
 
