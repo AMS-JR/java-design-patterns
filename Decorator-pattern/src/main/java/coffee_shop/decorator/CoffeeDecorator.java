@@ -1,0 +1,19 @@
+package coffee_shop.decorator;
+
+import coffee_shop.product.Coffee;
+
+public abstract class CoffeeDecorator implements Coffee{
+    protected Coffee decoratedCoffee;
+
+    public CoffeeDecorator(Coffee decoratedCoffee){
+        this.decoratedCoffee = decoratedCoffee;
+    }
+
+    public String getDescription(){
+        return decoratedCoffee.getDescription();
+    }
+
+    public double getCost(){
+        return decoratedCoffee.getCost();
+    }
+}
