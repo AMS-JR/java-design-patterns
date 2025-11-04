@@ -2,7 +2,7 @@ package coffee_shop.decorator;
 
 import coffee_shop.product.Coffee;
 
-public abstract class CoffeeDecorator implements Coffee{
+public abstract class CoffeeDecorator implements Coffee {
     protected Coffee decoratedCoffee;
 
     public CoffeeDecorator(Coffee decoratedCoffee){

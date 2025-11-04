@@ -1,11 +1,8 @@
 package coffee_shop;
 
-import coffee_shop.decorator.CoffeeDecorator;
-import coffee_shop.decorator.MilkDecorator;
-import coffee_shop.decorator.SugarDecorator;
+import coffee_shop.decorator.*;
 import coffee_shop.product.Coffee;
-import coffee_shop.product.impl.Espresso;
-import coffee_shop.product.impl.HouseBlend;
+import coffee_shop.product.impl.*;
 
 public class Demo {
     public static void main(String[] args) {
