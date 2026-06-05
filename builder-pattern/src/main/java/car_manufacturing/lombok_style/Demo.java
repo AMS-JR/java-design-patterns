@@ -10,7 +10,7 @@ public class Demo {
                 .color("silver")
                 .gpsEnabled(true)
                 .selfDrivingMode(false)
-                .Build();
+                .build();
         System.out.println(car);
     }
 }
