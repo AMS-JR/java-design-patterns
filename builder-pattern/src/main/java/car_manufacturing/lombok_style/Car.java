@@ -95,7 +95,7 @@ public class Car {
             return this;
         }
 
-        public Car Build(){
+        public Car build(){
             return new Car(this);
         }
     }
